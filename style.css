@@ -65,13 +65,30 @@ header {
 }
 
 .contact-form {
+    height: 75%;
+    width: 100%;
     position: relative;
+    top: 5%;
+    left: 10%;
 }
 
 
 
 
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
 
 #form-text {
     height: 25px;
@@ -81,7 +98,7 @@ header {
 }
 
 #form-text2 {
-    height: 300px;
+    height: 200px;
     max-width: 100%;
     box-sizing: border-box;
     border: #afafaf solid 1px;
@@ -121,4 +138,5 @@ a {
     border-right: solid grey 1px;
     text-decoration: none;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
