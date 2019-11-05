@@ -1,9 +1,39 @@
+/*
 .navbar {
-    background-color: #4aaaa5; 
-    color: white;
+    background-color:#4aaaa5; 
+    color:#777777;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 15px;
 }
+*/
+.top-name-banner {
+    position: fixed;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    float: left;
+    padding: 10px 20px;
+    margin-left: 100px;
+}
+
+.navbar-nav {
+    margin-left: 950px;
+}
+
+#portfolio-container {
+    height: 900px;
+    width: 700px;
+    z-index: 1;
+}
+
+.img-fluid  {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+
 
 html, body {
     height: 100%;
@@ -13,6 +43,8 @@ html, body {
 header {
     height: 100%;
     width: 100%;
+    position: fixed;
+    z-index: 2;
 } 
 
 h2 {
@@ -22,6 +54,7 @@ h2 {
 }
 
 .container {
+    margin-top: 50px;
     height: 500px;
     width: 100%;
     position: relative;
@@ -33,7 +66,7 @@ h2 {
 footer {
     background-color: #666666;
     height: 100px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 10px solid #4aaaa5;
     position: sticky;
 }
 
@@ -63,19 +96,18 @@ footer {
 }
 
 .portfolio-image {
-    max-width: 100%;
-    height: 200px;
     position: relative;
     margin: 20px 10px;
 }
 
 .portfolio-banner {
-    max-width: 100%;
+    width: 90%;
     background-color: #4aaaa5;
     color: white;
     position: absolute;
+    margin: 20px 10px;
     bottom: 20px;
-    margin: 10px 20px;
+    text-align: center;
 }
 
 
