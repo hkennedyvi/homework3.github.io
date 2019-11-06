@@ -29,20 +29,10 @@
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
-@media (max-width: 768px) {
-   
-    #portfolio-container {
-      height: 2500px;
-    }
-  }
-
-@media (max-width: 415px) {
-   
-    #portfolio-container {
-      height: 3200px;
-    }
-  }
-
+#my-name {
+    text-decoration: none;
+    color: white;
+}
 
 html, body {
     height: 100%;
@@ -60,7 +50,7 @@ header {
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .container {
@@ -119,6 +109,22 @@ footer {
     bottom: 20px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    #main-container {
+        height: 1000px;
+    }
+    #portfolio-container {
+      height: 2500px;
+    }
+  }
+
+@media (max-width: 415px) {
+    
+    #portfolio-container {
+      height: 3200px;
+    }
+  }
 
 
 
